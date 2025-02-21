@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## Usage
 Step-by-step instructions to run the project and reproduce the findings:
 
-Before running the notebooks, download the datasets from the provided links in the [Datasets](#datasets) section and place them into a folder named `data` within the project directory.
+Before running the notebooks, download the datasets from the provided links in the [Datasets](#datasets) section and place them into a folder named `data` within the project directory. Merged data csv has already been provided in the Data folder, so you can skip to notebooks 2 and 3 if you do not want to do those steps.
 ```bash
 # Run the data extraction notebook
 1_data_extraction.ipynb
