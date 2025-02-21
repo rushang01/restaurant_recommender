@@ -36,7 +36,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Step-by-step instructions to run the project and reproduce the findings.
+Step-by-step instructions to run the project and reproduce the findings:
+
+Before running the notebooks, download the datasets from the provided links in the [Datasets](#datasets) section and place them into a folder named `data` within the project directory.
 ```bash
 # Run the data extraction notebook
 1_data_extraction.ipynb
