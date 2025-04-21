@@ -1,4 +1,8 @@
-numpy
+streamlit
+plotly
+pydeck
+numpy == 1.23.5
+scikit-surprise
 pandas
 scikit-learn
 matplotlib
@@ -7,3 +11,4 @@ jupyter
 scipy
 statsmodels
 tqdm
+wordcloud

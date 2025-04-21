@@ -1,6 +1,20 @@
 # cap5771sp25-project
 # Project Title
 
+
+## Project Demo
+
+Check out the project demo using the link below:
+
+[Watch the Demo](https://uflorida-my.sharepoint.com/:v:/g/personal/chiplun_rushangs_ufl_edu/Ede6izdyrLVOtWypTeBKNgQByTsL4_nEojaHMs8i_G8ycw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FslpTT)
+
+## Project Presentation
+
+Access the project presentation using the link below:
+
+[View the Presentation](https://uflorida-my.sharepoint.com/:p:/g/personal/chiplun_rushangs_ufl_edu/EaoRWCU-iwlKklUQQGABobkBqGhlncNgRA_kYs0fGA45LQ?e=muH4qe)
+
+
 Intro to Data Science - CAP5771SP25 Project
 
 ## Table of Contents
