@@ -1,7 +1,8 @@
 streamlit
 plotly
 pydeck
-numpy
+scikit-surprise
+numpy<2.0
 pandas
 scikit-learn
 matplotlib
