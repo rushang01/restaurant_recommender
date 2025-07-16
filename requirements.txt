@@ -1,5 +1,14 @@
 streamlit
+plotly
+pydeck
+scikit-surprise
+numpy<2.0
 pandas
 scikit-learn
-plotly
-scikit-surprise
+matplotlib
+seaborn
+jupyter
+scipy
+statsmodels
+tqdm
+wordcloud
