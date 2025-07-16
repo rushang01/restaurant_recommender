@@ -446,9 +446,10 @@ def render_recommendations_page(df, unique_locations, all_cuisines, vectorizer, 
                         rec_cuisines = [c for sublist in recommendations_to_display['cuisines_list'] for c in sublist]
                         if rec_cuisines:
                             cuisine_counts = pd.Series(rec_cuisines).value_counts().nlargest(10)
+                            # Convert Series to a DataFrame for proper labeling in Plotly
                             cuisine_df = cuisine_counts.reset_index()
-                            cuisine_df.columns = ['Cuisine', 'Count']
-                            fig_rec_cuisine = px.bar(cuisine_counts, x=cuisine_counts.index, y=cuisine_counts.values, title="Top Cuisines in Recommendations", labels={'x': 'Cuisine', 'y': 'Count'})
+                            cuisine_df.columns = ['Cuisine', 'Count'] # Assign clear column names
+                            fig_rec_cuisine = px.bar(cuisine_df, x='Cuisine', y='Count', title="Top Cuisines in Recommendations")
                             fig_rec_cuisine.update_layout(xaxis_tickangle=-45)
                             st.plotly_chart(fig_rec_cuisine, use_container_width=True)
                         else: st.caption("No cuisine data.")
