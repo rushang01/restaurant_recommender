@@ -446,6 +446,8 @@ def render_recommendations_page(df, unique_locations, all_cuisines, vectorizer, 
                         rec_cuisines = [c for sublist in recommendations_to_display['cuisines_list'] for c in sublist]
                         if rec_cuisines:
                             cuisine_counts = pd.Series(rec_cuisines).value_counts().nlargest(10)
+                            cuisine_df = cuisine_counts.reset_index()
+                            cuisine_df.columns = ['Cuisine', 'Count']
                             fig_rec_cuisine = px.bar(cuisine_counts, x=cuisine_counts.index, y=cuisine_counts.values, title="Top Cuisines in Recommendations", labels={'x': 'Cuisine', 'y': 'Count'})
                             fig_rec_cuisine.update_layout(xaxis_tickangle=-45)
                             st.plotly_chart(fig_rec_cuisine, use_container_width=True)
