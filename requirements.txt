@@ -1,5 +1,5 @@
 streamlit
 pandas
 scikit-learn
-cython<3.0
+plotly
 scikit-surprise
